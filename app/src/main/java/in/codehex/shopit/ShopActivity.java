@@ -260,8 +260,8 @@ public class ShopActivity extends AppCompatActivity {
             holder.imgMap.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String uri = "geo:" + shopItem.getLat() + "," + shopItem.getLng()
-                            + "?q=" + shopItem.getLat() + "," + shopItem.getLng();
+                    String uri = "google.navigation:q=" + shopItem.getLat() + ","
+                            + shopItem.getLng();
                     Uri gmmIntentUri = Uri.parse(uri);
                     Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                     mapIntent.setPackage("com.google.android.apps.maps");
