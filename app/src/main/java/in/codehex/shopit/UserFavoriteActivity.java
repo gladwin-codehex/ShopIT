@@ -76,8 +76,8 @@ public class UserFavoriteActivity extends AppCompatActivity {
     private void getFavoriteList() {
         Map<String, ?> keys = sharedPreferences.getAll();
 
+        favoriteItemList.clear();
         for (Map.Entry<String, ?> entry : keys.entrySet()) {
-            favoriteItemList.clear();
             favoriteItemList.add(new FavoriteItem(entry.getValue().toString()));
             adapter.notifyDataSetChanged();
         }
