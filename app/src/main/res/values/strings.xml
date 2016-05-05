@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Shop IT</string>
+    <string name="search_tag">Product</string>
+    <string name="product">Product</string>
+    <string name="title_activity_shop">Nearby Shops</string>
+    <string name="title_activity_product">Available Products</string>
+    <string name="title_activity_review">Product Details</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="overall_rating">Overall Rating</string>
+    <string name="user_rating">Rating</string>
+    <string name="submit">Submit Feedback</string>
+    <string name="title_activity_user_favorite">User Favorite</string>
+    <string name="action_add_favorite">Add Favorite</string>
+    <string name="action_user_favorite">User Favorite</string>
+    <string name="message_activity_shop">No shop is located nearby</string>
+    <string name="distance">Distance</string>
+    <string name="desc_map">Map</string>
+</resources>
